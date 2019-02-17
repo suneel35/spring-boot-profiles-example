@@ -6,7 +6,7 @@
 	<groupId>com.techprimers.profiles</groupId>
 	<artifactId>spring-profiles-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>spring-profiles-example</name>
 	<description>Demo project for Spring Boot</description>
@@ -23,7 +23,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 	</properties>
-
+                  <sonar.host.url>https://localhost:8080/</sonar.host.url>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
